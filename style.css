@@ -1,0 +1,213 @@
+.container-1{
+    height: 900px;
+    width: auto;
+    background-color: antiquewhite;
+    display: grid;
+    grid-template-columns: repeat(1);
+    justify-items: stretch;
+   
+}
+.nav-info{
+    height: fit-content;
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    padding:20px 0 0 100px;
+    margin-left: 100px;
+    
+}
+.nav-info div{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-info a{
+    text-decoration: none;
+
+}
+.heading-info{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 40px;
+    
+}
+.button{
+    height: 40px;
+    width: 110px;
+    color: white;
+    background-color: rgb(248, 126, 81);
+    border: none;
+    border-radius: 5px;
+}
+.image img{
+    height: 400px;
+    width: 980px;
+    margin: 30px 0 0 170px;
+    
+}
+.container-2{
+    height: fit-content;
+    width: 100%;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    justify-content: space-evenly;
+}
+.container-2>div{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    
+}
+.image-1{
+    height: 200px;
+    width: 200px;
+    padding: 5px;
+    
+}
+.image-box{
+    height: 420px;
+    width: fit-content;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin:15px 0 0 210px;
+    
+}
+.container-3{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-items: center;
+    margin-top: 20px;
+}
+.feature-details{
+    height: 700px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 100px;
+}
+.feature-heading{
+    height: 140px;
+    width: 450px;
+    border-left: 4px solid rgb(250, 149, 112);
+    padding-left: 20px;
+    border-radius: 5px;
+}
+.feature-box{
+    height: 120px;
+    width: 450px;
+    border-radius: 4px;
+    box-shadow: 4px 4px whitesmoke;
+    margin-top: 10px;
+    
+}
+.image-section{
+    height: 700px;
+    width: 500px;
+    
+    margin-right: 100px;
+}
+
+
+.image-section button{
+    height: 110px;
+    width: 180px;
+    color: white;
+    background-color: rgb(243, 122, 36);
+    border: none;
+    border-radius: 5px;
+    font-size: 30px;
+    position:relative;
+    z-index: 2;
+    margin-top: 580px;
+   
+}
+#image{
+    background-image: url('/images/architect.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 500px;
+    position: absolute;
+    z-index: 1;
+    margin: 50px 0 0 50px;
+    
+}
+.container-4{
+    display: grid;
+    grid-template-columns: repeat(1);
+    justify-items: center;
+    margin-top: 20px;
+}
+.fact-details{
+    margin-right: 600px;
+}
+.fact-boxes{
+    height: 200px;
+    width: 1000px;
+    
+    display: grid;
+    grid-template-columns: repeat(4,3fr);
+    justify-items: center;
+    padding-top: 30px;
+
+}
+
+.fact-box{
+    height: 130px;
+    width: 130px;
+    border: 2px solid orange;
+    border-radius: 5px;
+    display: flex;
+    padding: 10px 0;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+ .container-5{
+    margin-top: 20px;
+ }
+ .sponsor{
+    display: flex;
+    flex-direction: column;
+    padding: 0 80px 0 80px;
+ }
+ .sponsor .details{
+    margin-left: 400px;
+ }
+ .logo{
+    display: grid;
+    grid-template-columns: repeat(5,4fr);
+    justify-items: center;
+ }
+ .logo img{
+    height: 30px;
+    width: 80px;
+    
+ }
+ 
+
+.container-6{
+    margin-top: 20px;
+    margin-left: 50px;
+    padding-top: 20px;
+    height: 200px;
+    width: 90%;
+    background-color: rgb(239, 217, 190);
+}
+ 
+ .footer{
+    height: 60px;
+    width: 90%;
+    margin-left: 50px;
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+ }
+
+ 
